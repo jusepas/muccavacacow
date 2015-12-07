@@ -1,8 +1,9 @@
-# muccavacacow
+muccavacacow
+============
 
 ## Setup
 
-Get the repo
+Get the repo (only once)
 
-    git clone https://github.com/jusepas/muccavacacow
+    git clone git@github.com:jusepas/muccavacacow.git
     cd muccavacacow
