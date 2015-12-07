@@ -1,0 +1,20 @@
+
+permalink: ./:year/:month/:title
+
+exclude:
+  - README.md
+
+gems:
+  - jekyll-sitemap
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: default
