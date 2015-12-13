@@ -5,5 +5,8 @@
 </head>
 <body>
   {{ content }}
+  <footer>
+    <time datetime="{{ post.date }}">{{ post.date | date: "%F" }}</time>
+  </footer>
 </body>
 </html>
