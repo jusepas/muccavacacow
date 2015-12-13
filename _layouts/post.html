@@ -4,9 +4,8 @@
   {% include common-head-tags.html %}
 </head>
 <body>
+
+<h1>post {{ site.econding }}{{ post.title }}</h1>
   {{ content }}
-  <footer>
-    <time datetime="{{ post.date }}">{{ post.date | date: "%F" }}</time>
-  </footer>
 </body>
 </html>
