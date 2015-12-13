@@ -1,10 +1,9 @@
 <!-- _includes/posts_list.html start -->
-<dl>
-{% for post in site.posts limit:{{include.limit}} %}
-<a href="./{{ post.url }}" target="_blank">
-    <dt>{{ post.title }}</dt>
-    <dd>{{ post.description }}</dd>
-  </a>
-{% endfor %}
-</dl>
+<ul>
+  {% for post in site.posts limit:{{include.limit}} %}
+    <li>
+      <a href="./{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 <!-- _includes/posts_list.html end -->
