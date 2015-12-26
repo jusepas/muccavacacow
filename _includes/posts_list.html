@@ -1,0 +1,9 @@
+<!-- _includes/posts_list.html start -->
+<ul>
+  {% for post in site.posts limit:{{include.limit}} %}
+    <li>
+      <a href="./{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+<!-- _includes/posts_list.html end -->
